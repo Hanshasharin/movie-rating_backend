@@ -22,7 +22,7 @@ const port = 3000
 var cors = require('cors')
 
 var corsOptions = {
-  origin: 'http://localhost:5173',
+  origin: 'https://movie-rating-two.vercel.app',
 }
 app.use(cors(corsOptions));
 app.use(express.json())
